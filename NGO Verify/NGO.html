@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>NGO Validation </title>
+</head>
+<body>
+<div class="container">
+  <div class="box">
+    <header class="signup-header">
+      <h1>NGO Validation </h1>
+      <p>Verify the govt issued NGO credentials here.</p>
+    </header>
+    <main class="signup-body">
+      <form action="#">
+        <p>
+          <label for="name">Full NGO Name</label>
+          <input type="text" placeholder="Type NGO name here" id="name" />
+          <i class="fa-solid"></i>
+          <span id="nameError"></span>
+        </p>
+        <p>
+          <label for="email">NGO Govt Valid Address</label>
+          <input type="email" placeholder="NGO-name@gov.in" id="email" />
+          <i class="fa-solid"></i>
+          <span id="emailError"></span>
+        </p>
+        <p>
+          <label for="password">Verified NGO Credential</label>
+          <input
+                  type="text"
+                  placeholder="Enter Valid NGO Govt ID"
+                  id="password"
+          />
+          <i class="fa-solid"></i>
+          <span id="passError"></span>
+        </p>
+        <p>
+          <input type="submit" value="Check NGO " id="submitBtn"/>
+        </p>
+      </form>
+    </main>
+    <footer class="signup-footer">
+      <p>Having an issue? <a href="https://services.india.gov.in/service/detail/search-ngo">Click Here</a></p>
+    </footer>
+  </div>
+</div>
+</body>
+
+<script src="index.js"></script>
+<!-- Add Script file of font awsome to access the icons -->
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NGO Donation Page</title>
+<link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<header class="header">
+<div class="container">
+<h1>Support Our Mission</h1>
+<p>Your generosity helps us make a difference.</p>
+</div>
+</header>
+
+<section class="donation-section">
+<div class="container">
+<h2>Make a Donation</h2>
+<center>
+<p>Every contribution helps us reach our goal of improving lives.</p></center>
+<form action="/submit-donation" method="POST" class="donation-form">
+<label for="name">Full Name </label>
+<input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+        <label for="name">Govt Verified NGO Name </label>
+        <input type="text" id="names" name="name" placeholder="Enter NGO name" required>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <label for="amount">Donation Amount (INR)</label>
+        <input type="number" id="amount" name="amount" placeholder="Enter amount" min="1" required>
+
+        <label for="message">Message (Optional)</label>
+        <textarea id="message" name="message" rows="4" placeholder="Add a message (optional)"></textarea>
+
+        <button type="submit" class="donate-button">Donate Now</button>
+    </form>
+</div>
+<center><p><b>Checkout verified NGO <a href="C:\Users\priya\Downloads\One-Planet-main\One-Planet-main\NGO Verify\NGO.html">Click Here</a></b></p></center>
+</section>
+
+<section class="impact-section">
+<div class="container">
+<h2>Your Impact</h2>
+<p>Your donations support education, healthcare, and community development programs worldwide.</p>
+<ul class="impact-list">
+<li>📚 Providing education to underprivileged children.</li>
+<li>🏥 Offering medical assistance in rural areas.</li>
+<li>🌱 Promoting sustainable community growth.</li>
+</ul>
+</div>
+</section>
+
+<footer class="footer">
+<div class="container">
+<p>© 2024. All Rights Reserved.</p>
+<nav>
+<a href="#header">Home</a>
+<a href="#donation-section">Donate</a>
+<a href="#impact-section">Impact</a>
+</nav>
+</div>
+</footer>
+</body>
+</html>
+
+
